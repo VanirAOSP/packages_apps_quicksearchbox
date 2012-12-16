@@ -45,6 +45,7 @@
                   android:theme="@style/Theme.QuickSearchBox.Search">
             <!-- Show app icon in Launcher. -->
             <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
             <!-- Handle global search. -->
             <intent-filter>
